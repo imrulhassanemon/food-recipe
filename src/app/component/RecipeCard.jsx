@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Clock, Users, Star, Flame, ChefHat } from "lucide-react";
+import Link from "next/link";
 
 export default function RecipeCard({ recipe }) {
   return (
@@ -93,9 +94,11 @@ export default function RecipeCard({ recipe }) {
         </div>
 
         {/* Button */}
-        <button className="mt-5 w-full rounded-xl bg-orange-500 px-4 py-3 font-semibold text-white transition hover:bg-orange-600">
-          View Recipe
-        </button>
+        <Link href={`/recipes/${recipe.id}`}>
+          <button className="mt-5 w-full rounded-xl bg-orange-500 px-4 py-3 font-semibold text-white transition hover:bg-orange-600">
+            View Recipe
+          </button>
+        </Link>
       </div>
     </article>
   );
