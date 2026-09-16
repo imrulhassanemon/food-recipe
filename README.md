@@ -8,7 +8,7 @@ Food Recipe helps users discover delicious recipes, explore different food categ
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** Add your deployed website link here
+🔗 **Live Website:** [https://food-recipe-seven-umber.vercel.app/]
 
 ---
 
