@@ -14,6 +14,7 @@ const Recipes = async() => {
 
     const res = await recipes.json()
     const allRecipes = res.recipes
+    console.log(allRecipes);
     return (
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6 w-5/6 mx-auto'>
             {

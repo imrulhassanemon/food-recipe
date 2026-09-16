@@ -21,10 +21,10 @@ const navLinks = [
     name: "Recipes",
     href: "/recipes",
   },
-  {
-    name: "Categories",
-    href: "/categories",
-  },
+  // {
+  //   name: "Categories",
+  //   href: "/categories",
+  // },
   {
     name: "About",
     href: "/about",

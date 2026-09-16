@@ -3,6 +3,7 @@ import { Clock, Users, Star, Flame, ChefHat } from "lucide-react";
 import Link from "next/link";
 
 export default function RecipeCard({ recipe }) {
+  
   return (
     <article className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       {/* Image */}

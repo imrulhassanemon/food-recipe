@@ -55,7 +55,7 @@ const reviews = [
 
 export default function Review() {
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="bg-orange-50  py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
         {/* Heading */}
@@ -115,7 +115,7 @@ export default function Review() {
                 </div>
 
                 {/* Review */}
-                <p className="min-h-[120px] text-sm leading-7 text-gray-600">
+                <p className="min-h-30 text-sm leading-7 text-gray-600">
                   {review.review}
                 </p>
 
